@@ -6,5 +6,9 @@ export default defineNuxtConfig({
 
     experimental: {
         reactivityTransform: true
-    }
+    },
+
+    modules: [
+      '@nuxtjs/tailwindcss'
+    ]
 })
