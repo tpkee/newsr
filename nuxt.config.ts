@@ -4,10 +4,6 @@ export default defineNuxtConfig({
         shim: false
     },
 
-    experimental: {
-        reactivityTransform: true
-    },
-
     modules: [
       '@nuxtjs/tailwindcss'
     ]
