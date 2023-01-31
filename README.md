@@ -1,42 +1,39 @@
-# Nuxt 3 Minimal Starter
+# :newspaper: Newsr
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A very simple news searcher made with Nuxt3 and powered by [</ newscatcher >](https://newscatcherapi.com/)'s API
 
-## Setup
-
+## Installation
+### Requirements:
+ - Node >= 18.13;
+ - yarn;
+ 
 Make sure to install the dependencies:
 
 ```bash
 # yarn
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
 ```
 
-## Development Server
+### Development Server
 
-Start the development server on http://localhost:3000
+Start the development server
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
